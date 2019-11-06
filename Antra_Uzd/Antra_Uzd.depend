@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1570636350 source:c:\users\edvin\it_pgr\antra_uzd\main.c
+	<stdio.h>
+	<stdlib.h>
+
