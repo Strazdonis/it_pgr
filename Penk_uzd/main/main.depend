@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1575030831 source:c:\users\edvin\it_pgr\penk_uzd\main\main.c
+	<stdio.h>
+	"antraste.h"
+
+1575030749 c:\users\edvin\it_pgr\penk_uzd\main\antraste.h
+
+1575030749 source:c:\users\edvin\it_pgr\penk_uzd\main\antraste.h
+
+1575030683 source:c:\users\edvin\it_pgr\penk_uzd\main\funkcijos.c
+

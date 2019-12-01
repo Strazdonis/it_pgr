@@ -1,38 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-/*
-    suranda skaiciu arciausia vidurkiui
-    @vid = vidurkis, pagal kuri ieskoti
-    @duom = duomenys (ivestu skaiciu masyvas)
-    @N = kiek duomenu yra masyve (ivestas skaicius N)
-    @daugmaz = rasti didesni skaiciu ar mazesni (0 - mazesnis, 1 - didesnis)
-*/
-int ieska(int vid, int duom[], int N, int daugmaz) {
-    int arciausias, sk;
-    arciausias = duom[0];
-    for(int i = 0; i < N; i++) {
-        printf("[ieska] %d\n", duom[i]);
-        if(daugmaz == 0) {
-            if()
-        } else {
+#include "antraste.h"
 
-        }
-    }
-    return arciausias;
-}
 
 int main() {
     printf("Ivesk kiek skaiciu ivedinesi\n");
-    int N, sk, vidurkis, suma=0;
+    int N, sk, vidurkis;
     scanf("%d", &N);
     int duom[N];
-    for(int i = 0; i < N; i++) {
-        printf("ivesk skaiciu\n");
-        scanf("%d", &duom[i]);
-        suma+=duom[i];
-    }
-    vidurkis = suma/N;
-    printf("[vidurkis] %d\n", vidurkis);
-    ieska(vidurkis, duom, N, 1);
+    vidurkis = ivestis(N, duom);
+    printf("vidurkis: %d\n", vidurkis);
+    int didz,maz;
+    didz = ieska(vidurkis, duom, N, 1);
+    maz = ieska(vidurkis, duom, N, 0);
+    printf("didesnis: %d\nmazesnis: %d\n",didz,maz);
     return 0;
 }
