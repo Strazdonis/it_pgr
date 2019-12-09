@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1574010435 source:c:\users\edvin\it_pgr\sest_uzd\main\strukturos.h
+
+1574011124 source:c:\users\edvin\it_pgr\sest_uzd\main\funkcijos.h
+	"strukturos.h"
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+
+1574010435 c:\users\edvin\it_pgr\sest_uzd\main\strukturos.h
+
+1574011233 source:c:\users\edvin\it_pgr\sest_uzd\main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funkcijos.h"
+
+1574011588 c:\users\edvin\it_pgr\sest_uzd\main\funkcijos.h
+	"strukturos.h"
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+

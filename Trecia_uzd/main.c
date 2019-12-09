@@ -24,10 +24,10 @@ int main() { //naudojant while
            // printf("\ncntr yra %d. x (%d) baigiasi 6, sum = %d\n", cntr, x, sum);
         }
     }
-    printf("\nis viso nariu nelyginiu nariu kurie baigesi skaiciumi 6: %d", sum);
+    printf("\nis viso nelyginiu nariu kurie baigesi skaiciumi 6: %d", sum);
     return 0;
 }
-
+/*
 
 int main() { //naudojant do-while
     int x = 1;
@@ -44,4 +44,4 @@ int main() { //naudojant do-while
     } while(x != 0);
     printf("\nis viso nariu nelyginiu nariu kurie baigesi skaiciumi 6: %d", sum);
     return 0;
-}
+}*/
