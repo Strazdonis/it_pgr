@@ -45,8 +45,8 @@ int main(int argc, char *argv[]) {
             eiluciu = eil_sk(f);
             duom = (knygos*) malloc(eiluciu * sizeof(knygos));
             int i;
-            char buf[70];
-            char *vardas[20], *pavarde[20], *pavadinimas[20];
+            char buf[100];
+            char *vardas = (char*)malloc(sizeof(char*)), *pavarde = (char*)malloc(sizeof(char*)), *pavadinimas[20];
             char failas[4];
             int metai,puslapiai;
             for(i=0; i<eiluciu; i++) {

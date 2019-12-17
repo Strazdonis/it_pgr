@@ -31,15 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="antraste.h" />
 		<Unit filename="failas.txt" />
-		<Unit filename="funkcijos.h">
-			<Option compile="1" />
-		</Unit>
+		<Unit filename="funkcijos.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="strukturos.h">
-			<Option compile="1" />
 		</Unit>
 		<Extensions>
 			<code_completion />
